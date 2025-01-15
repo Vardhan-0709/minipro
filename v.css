@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+.input-section, .output-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.views-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.view {
+  width: 200px;
+  height: 200px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #007BFF;
+  color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine Component Scanner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Machine Component Scanner</h1>
+  </header>
+  <main>
+    <section class="input-section">
+      <h2>Capture Machine Component</h2>
+      <video id="camera" autoplay playsinline></video>
+      <button id="captureButton">Capture</button>
+      <canvas id="canvas" style="display: none;"></canvas>
+    </section>
+
+    <section class="output-section" id="outputSection">
+      <h2>Generated Views</h2>
+      <div class="views-container">
+        <div class="view" id="topView"><h3>Top View</h3></div>
+        <div class="view" id="bottomView"><h3>Bottom View</h3></div>
+        <div class="view" id="frontView"><h3>Front View</h3></div>
+        <div class="view" id="leftView"><h3>Left View</h3></div>
+        <div class="view" id="rightView"><h3>Right View</h3></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Machine Component Scanner</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
